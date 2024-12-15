@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: 90vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel {
+    flex: 1;
+    background: linear-gradient(to bottom, #eaf6ff, #d2ebff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.left-panel h1 {
+    font-size: 2.5rem;
+    color: #003c6e;
+    margin-bottom: 10px;
+}
+
+.left-panel p {
+    font-size: 1.2rem;
+    color: #003c6e;
+    line-height: 1.4;
+}
+
+.right-panel {
+    flex: 1;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #006FCC;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #003c6e;
+}
+
+.forgot-password, .course-code {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    color: #006FCC;
+    text-decoration: none;
+}
+
+.separator {
+    text-align: center;
+    margin: 15px 0;
+    color: #ccc;
+}
+
+.google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.google-login img {
+    width: 20px;
+}
+
+.help-center {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.help-center a {
+    color: #006FCC;
+    text-decoration: none;
+}
